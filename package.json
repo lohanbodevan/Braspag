@@ -1,5 +1,5 @@
 {
-  "name": "braspag",
+  "name": "Braspag",
   "version": "0.0.2",
   "description": "Módulo de integração ao Braspag com Node.js",
   "main": "index.js",
