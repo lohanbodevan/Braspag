@@ -25,7 +25,7 @@ var braspag = new bp({
 });
 
 // Criando uma venda simplificada
-braspag.options({
+braspag.create({
   "MerchantOrderId":"2014111703",
   "Customer":{
     "Name":"Comprador Teste"
@@ -43,28 +43,14 @@ braspag.options({
       "Brand":"Visa"
     }
   }
-});
-
-braspag.create(callback);
+}, callback);
 
 // Consultando uma venda
-braspag.options({
-  "paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"
-});
-
-braspag.consult(callback);
+braspag.consult({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"}, callback);
 
 // Capturando uma venda
-braspag.options({
-  "paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"
-});
-
-braspag.capture(callback);
+braspag.capture({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"},callback);
 
 // Cancelando uma venda
-braspag.options({
-  "paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"
-});
-
-braspag.cancel(callback);
+braspag.cancel({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"},callback);
 ```
