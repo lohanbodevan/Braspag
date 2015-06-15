@@ -49,8 +49,8 @@ braspag.create({
 braspag.consult({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"}, callback);
 
 // Capturando uma venda
-braspag.capture({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"},callback);
+braspag.capture({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"}, callback);
 
 // Cancelando uma venda
-braspag.cancel({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"},callback);
+braspag.cancel({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"}, callback);
 ```
