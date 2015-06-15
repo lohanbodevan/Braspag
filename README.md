@@ -46,11 +46,11 @@ braspag.create({
 }, callback);
 
 // Consultando uma venda
-braspag.consult({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"}, callback);
+braspag.consult("c7f0752c-ed27-4f7f-9493-21dcd84ef914", callback);
 
 // Capturando uma venda
-braspag.capture({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"}, callback);
+braspag.capture("c7f0752c-ed27-4f7f-9493-21dcd84ef914", callback);
 
 // Cancelando uma venda
-braspag.cancel({"paymentId":"ba714418-8a38-429d-befd-4c62de6f4f02"}, callback);
+braspag.cancel("c7f0752c-ed27-4f7f-9493-21dcd84ef914", callback);
 ```
