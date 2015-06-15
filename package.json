@@ -1,6 +1,6 @@
 {
   "name": "braspag",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Módulo de integração ao Braspag com Node.js",
   "main": "index.js",
   "repository": {
